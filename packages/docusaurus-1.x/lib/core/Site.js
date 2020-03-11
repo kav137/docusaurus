@@ -75,6 +75,7 @@ class Site extends React.Component {
           <HeaderNav
             config={this.props.config}
             baseUrl={this.props.config.baseUrl}
+            cleanUrl={this.props.config.cleanUrl}
             title={this.props.config.title}
             language={this.props.language}
             version={this.props.version}
